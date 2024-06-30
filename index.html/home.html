@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRIATIVO</title>
+    <link rel="icon" href="LOGO CRIATIVIO 1.jpg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.25s;
+        }
+        nav ul li a:hover {
+            opacity: 0.7;
+        }
+        nav ul li a:active {
+            color: #000000;
+        }
+        .hero {
+            margin-top: 5px;  
+            color: #000000;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        .hero img {
+            margin-top: -50px;
+        }
+        .hero h1 {
+            color: black;
+            font-size: 2em;
+        }
+        .section {
+            text-align: center;
+            padding: 20px;
+        }
+        .section h2 {
+            margin-bottom: 20px;
+        }
+        .services {
+            background: #d2ceca;
+        }
+        .services .service-item {
+            margin-bottom: 20px;
+        }
+        .services h1 {
+            background-color: #333;
+            color: #f4f4f4;
+            padding: 15px;
+            margin-bottom: 50px;
+        }
+        .services img {
+            border: 5px solid #333;
+            border-radius: 3px;
+            width: 100%;
+            max-width: 300px;
+        }
+        .service-item button {
+            padding: 7px 125px;
+            background-color: #333;
+            color: aliceblue;
+            border: none;
+            border-radius: 3px;
+            transition: all 0.25s;
+        }
+        .service-item button:hover {
+            opacity: 0.8;
+        }
+        .service-item button:active {
+            background-color: white;
+            color: #333;
+        }
+        .service-item {
+            margin-top: 90px;
+        }
+        .contact {
+            padding: 20px;
+            background-color: #242222;
+            color: white;
+        }
+        .contact-details {
+            margin-bottom: 20px;
+        }
+        .get {
+            color: rgb(199, 199, 70);
+            padding: 20px;
+        }
+        .reveal {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CRIATIVO</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sec">Services</a></li>
+            <li><a href="#con">Contact Us</a></li>
+        </ul>
+    </nav>
+</header><br><br><br>
+
+<div id="home" class="hero reveal">
+    <h1>"Where Art and Technology collide"</h1>
+    <img src="LOGO CRIATIVIO no bg 1.png" height="400px" alt="CRIATIVO Logo">
+</div>
+
+<section id="sec" class="section services reveal">
+    <h1>OUR SERVICES</h1>
+    <div class="service-item reveal">
+        <h2>Web Design / Development</h2>
+        <img src="web design.jpg" alt="Web Design">
+        <br><br><a href="mailto:criativoagency2024@gmail.com?subject=Inquiry&body=Hello,%0A%0AI%20have%20a%20question%20about%20your%20services."><button>Click here</button></a>
+    </div>
+    <div class="service-item reveal">
+        <h2>Graphic Design</h2>
+        <img src="Graphic design.jpg" alt="Graphic Design">
+        <br><br><a href="mailto:criativoagency2024@gmail.com?subject=Inquiry&body=Hello,%0A%0AI%20have%20a%20question%20about%20your%20services."><button>Click here</button></a>
+    </div>
+    <div class="service-item reveal">
+        <h2>Photo / Video Editing</h2>
+        <img src="vp editing.jpg" alt="Photo Video Editing">
+        <br><br><a href="mailto:criativoagency2024@gmail.com?subject=Inquiry&body=Hello,%0A%0AI%20have%20a%20question%20about%20your%20services."><button>Click here</button></a>
+    </div>
+    <div class="service-item reveal">
+        <h2>Insta Manager</h2>
+        <img src="insta manger.jpg" alt="Insta Manager">
+        <br><br><a href="mailto:criativoagency2024@gmail.com?subject=Inquiry&body=Hello,%0A%0AI%20have%20a%20question%20about%20your%20services."><button>Click here</button></a>
+    </div>
+    <div class="service-item reveal">
+        <h2>Language Partner</h2>
+        <img src="WhatsApp Image 2024-06-30 at 13.22.09_763670cc.jpg" alt="Language Manager">
+        <br><br><a href="mailto:criativoagency2024@gmail.com?subject=Inquiry&body=Hello,%0A%0AI%20have%20a%20question%20about%20your%20services."><button>Click here</button></a>
+    </div>
+    <div class="service-item reveal">
+        <h2>Product Selling</h2>
+        <img src="product.jpg" alt="Product Selling">
+        <br><br><a href="mailto:criativoagency2024@gmail.com?subject=Inquiry&body=Hello,%0A%0AI%20have%20a%20question%20about%20your%20services."><button>Click here</button></a>
+    </div>
+</section>
+
+<center><section id="con" class="contact reveal">
+    <h2 class="get">Contact Us</h2>
+    <div class="contact-details">
+        <p><strong>Instagram:</strong> @criativo.agency</p>
+        <p><strong>Phone:</strong> +91 8148440665</p>
+        <p><strong>Email:</strong> criativoagency2024@gmail.com</p>
+    </div>
+    <p style="color: red;padding:35px;">© 2024 CRIATIVO. All rights reserved.</p>
+</section></center>
+
+<script>
+    document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    window.addEventListener('scroll', revealElements);
+
+    function revealElements() {
+        const reveals = document.querySelectorAll('.reveal');
+        for (const reveal of reveals) {
+            const windowHeight = window.innerHeight;
+            const elementTop = reveal.getBoundingClientRect().top;
+            const revealPoint = 150;
+
+            if (elementTop < windowHeight - revealPoint) {
+                reveal.classList.add('active');
+            } else {
+                reveal.classList.remove('active');
+            }
+        }
+    }
+
+    // Initial call to reveal elements in the viewport on page load
+    revealElements();
+</script>
+
+</body>
+</html>
+
+
